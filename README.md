@@ -1,2 +1,2 @@
 # luminoa.github.io
-An official website repository of Luminoa.
+An official website of Luminoa.
