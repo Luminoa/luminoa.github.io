@@ -248,10 +248,19 @@
             height: 220px;
             background: linear-gradient(45deg, #2c2548, #1e1946);
             display: flex;
-            justify-content: center;
+            justify-content: center; 
             align-items: center;
             position: relative;
             overflow: hidden;
+        }
+
+        .frost-logo {
+            max-width: 350px;
+            width: 80%;
+            display: flex;           
+            justify-content: center;
+            align-items: center;
+            height: 100%;
         }
 
         .game-image::before {
@@ -269,11 +278,6 @@
         @keyframes shine {
             0% { transform: rotate(45deg) translate(-50%, -50%); }
             100% { transform: rotate(45deg) translate(50%, 50%); }
-        }
-
-        .frost-logo {
-            max-width: 350px;
-            width: 80%;
         }
 
         .game-content {
